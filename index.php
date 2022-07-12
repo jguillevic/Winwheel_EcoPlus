@@ -17,6 +17,7 @@
 
     <script src="js/TweenMax.min.js"></script>
     <script src="js/Winwheel.min.js"></script>
+    <script src="js/SweetAlert.min.js"></script>
     <script src="js/App.js"></script>
 </body>
 </html>

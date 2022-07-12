@@ -21,14 +21,25 @@ let wheel = new Winwheel({
     }
 });
 
-let audio = new Audio('sound/Tick.mp3');
+let audioTick = new Audio('sound/Tick.mp3');
 
 function playSound() {
-    audio.pause();
-    audio.currentTime = 0;
-    audio.play();
+    audioTick.pause();
+    audioTick.currentTime = 0;
+    audioTick.play();
 }
 
+let audioNyan = new Audio('sound/NyanCat.mp3');
+
 function alertChosenOne() {
-    alert(wheel.getIndicatedSegment().text + ' est l\'élu !');
+    audioNyan.play();
+
+    Swal.fire({
+        text: wheel.getIndicatedSegment().text + ' est l\'élu !',
+        imageUrl: 'img/NyanCat.gif',
+        imageAlt: 'Nyan Cat'
+      }).then(function() {
+        audioNyan.pause();
+        audioNyan.currentTime = 0;
+      });
 }
