@@ -1,0 +1,11 @@
+body {
+    font-family: system-ui;
+    text-align: center;
+}
+
+#canvas-container {
+    border: 1px solid #ccc;
+    width: 500px;
+    margin: 4em auto; 
+    padding: 2em;
+}
