@@ -10,10 +10,12 @@
     <h1>Roue de la chance EcoPlus</h1>
 
     <div id="canvas-container">
-        <canvas id="canvas" width="500" height="500" onclick="wheel.stopAnimation(false); wheel.rotationAngle=0; wheel.draw(); wheel.startAnimation();">
+        <canvas id="canvas" width="310" height="310" onclick="wheel.stopAnimation(false); wheel.rotationAngle=0; wheel.draw(); wheel.startAnimation();">
             Canvas n'est pas supporté, utilisez un autre navigateur.
         </canvas>
     </div>
+
+    <p>Cliquez sur la roue pour lancer le tirage.</p>
 
     <script src="js/TweenMax.min.js"></script>
     <script src="js/Winwheel.min.js"></script>

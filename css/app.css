@@ -4,8 +4,16 @@ body {
 }
 
 #canvas-container {
-    border: 1px solid #ccc;
-    width: 500px;
-    margin: 4em auto; 
+    margin: auto; 
     padding: 2em;
+    padding-top: 2.2em;
+    margin-top: 5em;
+    margin-bottom: 5em;
+    background-image: url("../img/wheel_back.png");
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#canvas:hover {
+    cursor: pointer;
 }
