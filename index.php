@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="google-site-verification" content="CGFLNf4xo0dGm3GrJVVhLaiNv-PwQ53XxcLjcRwrVB4" />
     <title>Roue de la chance EcoPlus</title>
     <link rel="stylesheet" href="css/app.css">
 </head>
