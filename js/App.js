@@ -1,6 +1,6 @@
 let wheel = new Winwheel({
     'canvasId': 'canvas',
-    'numSegments': 7,
+    'numSegments': 8,
     'textFontSize': 18,
     'segments': [
         {'fillStyle': '#0da978', 'text': 'Jérôme'},
