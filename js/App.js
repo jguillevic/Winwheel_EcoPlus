@@ -8,8 +8,9 @@ let wheel = new Winwheel({
         {'fillStyle': '#947ef6', 'text': 'Christopher'},
         {'fillStyle': '#fbd4e1', 'text': 'Olivier'},
         {'fillStyle': '#2d7594', 'text': 'Brayan'},
-        {'fillStyle': '#cc0d4e', 'text': 'Corentin'},
+        {'fillStyle': '#cc0d4e', 'text': 'Alice'},
         {'fillStyle': '#ef2b06', 'text': 'Nathalie'},
+        {'fillStyle': '#c09b7a', 'text': 'Victor'},
     ],
     'lineWidth': 3,
     'animation': {
